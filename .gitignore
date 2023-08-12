@@ -150,3 +150,15 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+README.html
+README_files/libs/bootstrap/bootstrap-icons.css
+README_files/libs/bootstrap/bootstrap-icons.woff
+README_files/libs/bootstrap/bootstrap.min.css
+README_files/libs/bootstrap/bootstrap.min.js
+README_files/libs/clipboard/clipboard.min.js
+README_files/libs/quarto-html/anchor.min.js
+README_files/libs/quarto-html/popper.min.js
+README_files/libs/quarto-html/quarto-syntax-highlighting.css
+README_files/libs/quarto-html/quarto.js
+README_files/libs/quarto-html/tippy.css
+README_files/libs/quarto-html/tippy.umd.min.js
