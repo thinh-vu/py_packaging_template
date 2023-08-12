@@ -87,9 +87,9 @@ Khi mới làm quen với việc chia sẻ thư viện, bạn nên bắt đầu 
 ### Đóng gói thư viện
 
 1. Mở Terminal/Command Prompt từ thư mục chứa thư viện của bạn. Sử dụng `cd ĐƯỜNG_DẪN_TỚI_THƯ_MỤC` để di chuyển đến thư mục chứa thư viện của bạn như ở bước 2.1.
-![cd_to_your_project](command_prompt_cd.png)
+![cd_to_your_project](./src/command_prompt_cd.png)
 2. Bắt đầu đóng gói khóa học với lệnh `python -m build` trong Terminal/Command Prompt
-![build_package](./src\/build_package.png)
+![build_package](./src/build_package.png)
 
 ### Kiểm thử thư viện
 
@@ -122,8 +122,8 @@ Chúc mừng bạn đã trở thành tác giả của 1 thư viện python mã n
 ### Chia sẻ mã nguồn lên Github
 Sau khi thực hiện hoàn tất các bước trên, thư viện của bạn đã sẵn sàng. Hãy hoàn tất quá trình này bằng 1 bước nữa đó là chia sẻ mã nguồn của bạn lên Github nếu bạn thực sự muốn công khai mã nguồn dự án. Để làm điều này, bạn có thể sử dụng Github Desktop để `commit` và đẩy mã nguồn lên tài khoản Github của bạn. Bước này có thể thực hiện trước khi phân phối thư viện của bạn lên Pypi để có thể lấy thông tin URL của dự án và đặt vào phần thông tin tác giả/mã nguồn trong file `setup.cfg`
 - ![Tạo repo](./src/create_github_repo.png)
-- !['Publish repo 1](.src/publish_repo_github_1.png)
-- !['Publish repo 2](.src/publish_repo_github_2.png)
+- !['Publish repo 1](./src/publish_repo_github_1.png)
+- !['Publish repo 2](./src/publish_repo_github_2.png)
 
 # IV. 🙋‍♂️ THÔNG TIN TÁC GIẢ
 
