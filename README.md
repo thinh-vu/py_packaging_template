@@ -81,6 +81,8 @@ Chờ một lát, bạn sẽ thấy một thư mục mới được tạo ra v�
 - Cài đặt công cụ `twine` để upload thư viện lên Pypi: Sử dụng câu lệnh `pip install --upgrade twine` để cài đặt, nếu gặp lỗi, thử đặt `python -m ` hoặc `python3 -m ` trước câu lệnh trên.
 - Tạo tài khoản [PypiTest](https://test.pypi.org) để thử nghiệm upload thư viện và [Pypi](https://pypi.org) để upload chính thức. Sau khi tạo tài khoản, bạn cần tạo một API token bằng cách mở mục [Account Setting](https://pypi.org/manage/account), tìm mục `API tokens` và chọn `Add API tokens`. Tại đây bạn chọn scope, nếu là lần đầu tiên tạo token thì chỉ cần chọn scope mặc định, áp dụng cho toàn bộ account của bạn, khi đã chia sẻ ít nhất 1 thư viện, bạn có thể chọn scope chính xác cho thư viện đó để bảo mật tài khoản, giới hạn phạm vi tác động của API tới chính xác thư viện bạn muốn làm việc. PypiTest là bản sao của Pypi để bạn làm quen và thử nghiệm trước khi tải chính thức. 
 Khi mới làm quen với việc chia sẻ thư viện, bạn nên bắt đầu với PypiTest, sau khi Test (kiểm thử) hoàn chỉnh và xác thực thư viện bạn có thể chạy hoàn hảo cho người dùng tải về thì có thể chuyển sang chia sẻ chính thức tại Pypi.
+![Tạo token](./src/add_a_token.png)
+![Tạo token_2](./src/generate_pypi_token.png)
 
 ### Đóng gói thư viện
 
