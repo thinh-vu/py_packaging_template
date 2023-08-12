@@ -19,7 +19,7 @@ Nội dung hướng dẫn được tham chiếu từ tài liệu đóng gói m�
     - [3.5. Chuẩn bị các công cụ cần thiết](#35-chuẩn-bị-các-công-cụ-cần-thiết)
     - [3.6. Đóng gói thư viện](#36-đóng-gói-thư-viện)
     - [3.7. Kiểm thử thư viện](#37-kiểm-thử-thư-viện)
-    - [3.8. Phân  phối khóa học lên Pypi](#38-phân--phối-khóa-học-lên-pypi)
+    - [3.8. Phân  phối thư viện lên Pypi](#38-phân--phối-thư-viện-lên-pypi)
     - [3.9. Chia sẻ mã nguồn lên Github](#39-chia-sẻ-mã-nguồn-lên-github)
 - [IV. 🙋‍♂️ THÔNG TIN TÁC GIẢ](#iv-️-thông-tin-tác-giả)
 - [V. ỦNG HỘ TÁC GIẢ](#v-ủng-hộ-tác-giả)
@@ -135,7 +135,7 @@ Khi mới làm quen với việc chia sẻ thư viện, bạn nên bắt đầu 
 
 ### 3.7. Kiểm thử thư viện
 
-- Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt `python3 -m twine upload --repository testpypi dist/*`. Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp `username` và `password`.
+- Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt `python -m twine upload --repository testpypi dist/*`. Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp `username` và `password`.
 	- Nhập `__token__` cho username
 	- Nhập token của PypiTest bạn đã tạo ở bước trước cho `password`
 - Sau khi upload thành công bạn sẽ nhận được thông báo trong Terminal/Command Prompt.
@@ -150,10 +150,10 @@ Khi mới làm quen với việc chia sẻ thư viện, bạn nên bắt đầu 
 	- Các hàm có hoạt động đúng như thiết kế không?
 	- Docstring (phần hướng dẫn nhập các tham số của hàm) có hiển thị thân thiện và đầy đủ không?
 	
-### 3.8. Phân  phối khóa học lên Pypi
+### 3.8. Phân  phối thư viện lên Pypi
 > Các bước thực hiện khi phân phối thư viện của bạn chính thức trên Pypi tương tự như với bản `PypiTest`, khác chút ở câu lệnh upload, cần thay thế `testpypi` thành `pypi`. Cụ thể như dưới đây.
 
-- Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt `python3 -m twine upload --repository pypi dist/*`. Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp `username` và `password`.
+- Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt `python -m twine upload --repository pypi dist/*`. Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp `username` và `password`.
 	- Nhập `__token__` cho username
 	- Nhập token của PypiTest bạn đã tạo ở bước trước cho `password`
 
