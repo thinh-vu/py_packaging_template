@@ -4,6 +4,26 @@
 
 Nội dung hướng dẫn được tham chiếu từ tài liệu đóng gói một thư viện Python chuẩn của tổ chức Python Software Foundation [Tại đây](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
+## Danh mục nội dung
+- [I. GIỚI THIỆU CHUNG](#i-giới-thiệu-chung)
+  - [Danh mục nội dung](#danh-mục-nội-dung)
+  - [Lan toả repo này tới nhiều người hơn](#lan-toả-repo-này-tới-nhiều-người-hơn)
+- [II. CẤU TRÚC \& MÔ TẢ VIỆN PYTHON MẪU](#ii-cấu-trúc--mô-tả-viện-python-mẫu)
+- [III. HƯỚNG DẪN SỬ DỤNG](#iii-hướng-dẫn-sử-dụng)
+  - [3.1. Clone template repo vào tài khoản Github](#31-clone-template-repo-vào-tài-khoản-github)
+  - [3.2. Clone repo này về máy của bạn](#32-clone-repo-này-về-máy-của-bạn)
+    - [a.Sử dụng Terminal / Command Prompt](#asử-dụng-terminal--command-prompt)
+    - [b. Sử dụng Github Desktop](#b-sử-dụng-github-desktop)
+    - [3.3. Cập nhật mã nguồn của bạn vào thư viện](#33-cập-nhật-mã-nguồn-của-bạn-vào-thư-viện)
+    - [3.4. Thiết lập thư viện](#34-thiết-lập-thư-viện)
+    - [3.5. Chuẩn bị các công cụ cần thiết](#35-chuẩn-bị-các-công-cụ-cần-thiết)
+    - [3.6. Đóng gói thư viện](#36-đóng-gói-thư-viện)
+    - [3.7. Kiểm thử thư viện](#37-kiểm-thử-thư-viện)
+    - [3.8. Phân  phối khóa học lên Pypi](#38-phân--phối-khóa-học-lên-pypi)
+    - [3.9. Chia sẻ mã nguồn lên Github](#39-chia-sẻ-mã-nguồn-lên-github)
+- [IV. 🙋‍♂️ THÔNG TIN TÁC GIẢ](#iv-️-thông-tin-tác-giả)
+- [V. ỦNG HỘ TÁC GIẢ](#v-ủng-hộ-tác-giả)
+
 ## Lan toả repo này tới nhiều người hơn
 - Nếu bạn thấy bài hướng dẫn này hữu ích, hãy góp phần lan tỏa nó tới bạn bè và cộng đồng để nhiều người có cơ hội tiếp cận hơn.
 - Các hình thức lan tỏa và ủng hộ tinh thần cho `py_packaging_template` bao gồm nhưng không giới hạn
