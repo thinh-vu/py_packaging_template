@@ -1,3 +1,7 @@
+> Tham khảo bài viết chi tiết trên Thinh Vu Blog và video hướng dẫn trên kênh Youtube LEarn Anything [tại đây](https://thinhvu.com/2023/08/13/huong-dan-dong-goi-python-package-pypi/)
+
+---
+
 # I. GIỚI THIỆU CHUNG
 
 > `py_packaging_template` là một repo chứa cấu trúc mẫu của một thư viện Python, giúp cho những người dùng mới tìm hiểu về cách tạo một thư viện Python bắt đầu một cách đơn giản và nhanh chóng để chia sẻ dự án của mình với cộng đồng.
